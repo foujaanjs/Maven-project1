@@ -41,7 +41,7 @@ public class App {
 				System.out.println("Thanks for using employee management app");
 				factory.close();
 				scan.close();
-				break;
+				return;
 			}
 		}
 	}
